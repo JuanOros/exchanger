@@ -1,0 +1,19 @@
+{
+  "name": "exchanger",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^4.3.1"
+  },
+  "devDependencies": {
+    "@trybe/eslint-config-frontend": "^1.10.0"
+  }
+}
