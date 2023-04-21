@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Fira+Code:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(26, 24, 24);
+  display: flex;
+  justify-content: center;
+  font-family: 'Fira Code', monospace;
+}
+
+main {
+  margin-top: 20px;
+  width: 70%;
+  align-items: center;
+  padding: 70px;
+  background-color: rgba(242, 234, 234, 0.06);
+  border-radius: 10px;
+}
+
+label {
+  color: white;
+  display: block;
+}
+
+h1 {
+  margin-bottom: 50px;
+  color: white;
+  font-size: 70px;
+}
+h1 span {
+  color: rgb(47, 143, 33);
+}
+
+form input {
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 5px;
+  font-size: 25px;
+  width: 200px;
+}
+
+form button {
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+  padding: 0 10px;
+  font-size: 25px;
+  background-color: rgb(47, 143, 33)
+}
+
+form button:hover {
+  color: rgb(101, 92, 92);
+  transform: scale(0.94);
+  background-color: #77b976;
+
+}
+
+.all-values {
+  margin-top: 20px;
+  background-color: rgba(242, 234, 234, 0.1);
+  text-align: center;
+  padding: 20px 0;
+  max-height: 500px;
+  overflow-y: scroll;
+  border-radius: 15px;
+}
+
+.all-values h2{
+  margin: 30px 0;
+  color: white;
+}
+
+.all-values ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+li {
+  width: 150px;
+  background: rgba(248, 244, 244, 0.06);
+  border-radius: 5px;
+  padding: 15px 20px;
+  color: white;
+  list-style-type: none;
+  margin: 10px;
+}
+
+li img {
+  width: 15px;
+}
+
+li span {
+  color: rgb(204, 204, 23);
+}
